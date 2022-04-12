@@ -18,5 +18,11 @@
         "react"
     ],
     "rules": {
+      "react/react-in-jsx-scope": "off",
+      "react/function-component-definition": [
+       "on", {
+        "namedComponents": "arrow-function"
+       }
+      ]
     }
 }
