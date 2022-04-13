@@ -1,7 +1,8 @@
-import styled from 'styled-components/macro';
+import styled, { css } from 'styled-components';
 
-export const Wrapper = styled.header `
-
-  background-color: coral;
-
+export const Wrapper = styled.header`
+  ${({ theme }) => css`
+    background-color: ${theme.colors.primary};
+    color: ${theme.colors.white};
+  `};
 `;
