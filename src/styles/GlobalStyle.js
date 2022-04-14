@@ -2,13 +2,16 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   * {
-    margin: 0;
-    padding: 0;
+    margin: 20px;
   }
 
   body {
     background-color: lightgray;
-    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  ul {
+    list-style: none;
   }
 
   `;
